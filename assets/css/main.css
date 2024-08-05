@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
@@ -23,6 +24,7 @@ ul {
 }
 
 h1,h2,h3,h4,h5,h6 {
+	font-family: "Permanent Marker", cursive;
 	margin: 0px;
 }
 
@@ -1451,4 +1453,26 @@ footer .contact-form button.filled-button:hover {
 }
 .additional-content {
     display: none; 
+}
+/* modal */
+.remodal-content h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.remodal-content p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+.remodal-content {
+	padding: 20px;
+}
+.remodal-close {
+	font-size: 18px;
+	padding: 10px;
+	background-color: #f44336;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
 }
