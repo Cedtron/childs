@@ -1344,7 +1344,7 @@ footer .contact-form button.filled-button:hover {
 		display: none;
 	}
 	#navbarResponsive {
-	    z-index: 99999;
+	    z-index: 999;
 	    position: absolute;
 	    top: 80px;
 	    left: 0;
@@ -1455,24 +1455,16 @@ footer .contact-form button.filled-button:hover {
     display: none; 
 }
 /* modal */
-.remodal-content h2 {
+   /* Custom CSS for modal content */
+   .modal-content h2 {
 	font-size: 24px;
 	margin-bottom: 15px;
 }
-.remodal-content p {
+.modal-content p {
 	font-size: 16px;
 	line-height: 1.5;
 	margin-bottom: 10px;
 }
-.remodal-content {
+.modal-content {
 	padding: 20px;
-}
-.remodal-close {
-	font-size: 18px;
-	padding: 10px;
-	background-color: #f44336;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
 }
