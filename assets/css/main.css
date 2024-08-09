@@ -62,7 +62,7 @@ a.border-button:hover {
 	background-color: #fff;
 	color: #F6454F;
 }
-
+.text-span{color: #F6454F;font-weight: bolder;}
 .section-heading {
 	text-align: center;
 	margin-bottom: 80px;
@@ -1455,16 +1455,3 @@ footer .contact-form button.filled-button:hover {
     display: none; 
 }
 /* modal */
-   /* Custom CSS for modal content */
-   .modal-content h2 {
-	font-size: 24px;
-	margin-bottom: 15px;
-}
-.modal-content p {
-	font-size: 16px;
-	line-height: 1.5;
-	margin-bottom: 10px;
-}
-.modal-content {
-	padding: 20px;
-}

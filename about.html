@@ -34,7 +34,9 @@
     <link rel="canonical" href="sheillahchildrensfoundation.org">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="assets/css/jquery.modal.min.css" />
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -101,7 +103,16 @@
               </li>  
               <li class="nav-item">
                 <a class="nav-link" href="services.html">What we do</a>
-              </li>                          
+              </li>      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  Get Involved
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="voluteer.html">Volunteer</a>
+                  <a class="dropdown-item" href="fundriser.html">Fundriser</a>
+                </div>
+              </li>                    
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
@@ -178,33 +189,31 @@
                     <p>
                         Sheilah volunteered with several local NGOs and community-based organizations focused on child welfare and community development. Through these roles, she gained valuable experience in program management, fundraising, and community outreach. Her work involved organizing educational programs, healthcare initiatives, and psychosocial support for vulnerable children.
                     </p>
-                    <button class="filled-button" data-fancybox data-src="#readMoreContent">Read More</button>
+                    
+                    <a href="#ex1" class="filled-button" rel="modal:open">Read More</a>
                 </div>
             
-                <!-- Hidden Modal Content -->
-                <div style="display: none;" id="readMoreContent">
-                    <div class="modal-content">
-                        <h2>About the Founder</h2>
-                        <p>
-                            Motivated by her deep commitment to improving the lives of orphans and underprivileged children, Sheilah founded the Sheilah Children’s Foundation in 2019. The orphanage started with a small group of children and has grown to support over 100 children, providing them with shelter, education, healthcare, and emotional support.
-                        </p>
-                        <p>
-                            Sheilah's vision for the Sheilah Children’s Foundation is to create a safe and nurturing environment where every child can thrive and achieve their full potential. The mission of the orphanage is to empower orphans and underprivileged children through comprehensive care and education, fostering a brighter future for them and their communities.
-                        </p>
-                        <p>
-                            Sheilah is known for her compassionate nature, strong leadership skills, and unwavering dedication to her cause. She is a tireless advocate for children's rights and is deeply respected by her community for her efforts to bring about positive change.
-                        </p>
-                        <p>
-                            Sheilah aims to continue expanding the orphanage's facilities and programs, reaching more children in need across Uganda. She is also working towards creating sustainable income-generating projects to ensure the long-term financial stability of the orphanage.
-                        </p>
-                        <p>
-                            In her free time, Sheilah enjoys reading, gardening, and spending time with the children at the orphanage. She is also actively involved in community events and enjoys networking with other like-minded individuals and organizations.
-                        </p>
-                    </div>
+                <div id="ex1" class="modal">
+                  <h2>About the Founder</h2>
+                  <p>
+                      Motivated by her deep commitment to improving the lives of orphans and underprivileged children, Sheilah founded the Sheilah Children’s Foundation in 2019. The orphanage started with a small group of children and has grown to support over 100 children, providing them with shelter, education, healthcare, and emotional support.
+                  </p>
+                  <p>
+                      Sheilah's vision for the Sheilah Children’s Foundation is to create a safe and nurturing environment where every child can thrive and achieve their full potential. The mission of the orphanage is to empower orphans and underprivileged children through comprehensive care and education, fostering a brighter future for them and their communities.
+                  </p>
+                  <p>
+                      Sheilah is known for her compassionate nature, strong leadership skills, and unwavering dedication to her cause. She is a tireless advocate for children's rights and is deeply respected by her community for her efforts to bring about positive change.
+                  </p>
+                  <p>
+                      Sheilah aims to continue expanding the orphanage's facilities and programs, reaching more children in need across Uganda. She is also working towards creating sustainable income-generating projects to ensure the long-term financial stability of the orphanage.
+                  </p>
+                  <p>
+                      In her free time, Sheilah enjoys reading, gardening, and spending time with the children at the orphanage. She is also actively involved in community events and enjoys networking with other like-minded individuals and organizations.
+                  </p>
+                  <a href="#" rel="modal:close">Close</a>
                 </div>
                 
-               
-                
+          
                 </div>
               </div>
             </div>
@@ -219,42 +228,121 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Our Board<em> members</em></h2>
-            
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="team-item">
-              <img src="assets/images/sam.jpeg" alt="">
-              <div class="down-content">
-                <h4>Omoding Sam Emmanuel</h4>
-                <span>Director Finance and Administration</span>
-              
+              <div class="section-heading">
+                  <h2>Our Management<em> Team</em></h2>
               </div>
-            </div>
           </div>
-          <div class="col-md-4">
-            <div class="team-item">
-              <img src="assets/images/sam.jpeg" alt="">
-              <div class="down-content">
-                <h4>Nabasenya Shivan</h4>
-                <span>Monitoring and Evaluation Officer</span>
-               
+      
+          <!-- Start of Card 1 -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card mb-3 border-0 rounded-2">
+                  <div class="row g-0">
+                      <div class="col-md-4 d-flex align-items-center justify-content-center">
+                          <img src="assets/images/sam.jpeg" class="img-fluid rounded-circle mt-2" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h4 class="card-title">Sheilah Christine Nampeera</h4>
+                              <span class="text-span">Finance and Administration</span>
+                              <p class="card-text">
+                                  James 1:27 “Religion that God our Father accepts as pure and faultless is this (TO LOOK AFTER ORPHANS AND WIDOWS IN THEIR DISTRESS AND TO KEEP ONESELFFROM BEING POLLUTED BY THE WORLD)”. Growing up in an impoverished family in a third-world country with a single mother and five siblings, I was fortunate enough to be part of a mission team to the USA spreading the gospel through music...
+                              </p>
+                              <!-- Social Icons -->
+                              <div class="social-icons text-center mt-4">
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-facebook"></i></a>
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-twitter"></i></a>
+                                  <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-          <div class="col-md-4">
-            <div class="team-item">
-              <img src="assets/images/sam.jpeg" alt="">
-              <div class="down-content">
-                <h4>Nasamula Betty</h4>
-                <span>Project Manager</span>
-              
+          <!-- End of Card 1 -->
+      
+          <!-- Start of Card 2 -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card mb-3 border-0 rounded-2">
+                  <div class="row g-0">
+                      <div class="col-md-4 d-flex align-items-center justify-content-center">
+                          <img src="assets/images/sam.jpeg" class="img-fluid rounded-circle" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h4>Omoding Sam Emmanuel</h4>
+                              <span class="text-span">Finance and Administration</span>
+                              <p class="card-text">
+                                Sam heads the finance and administration department with over five years of experience in accounting and auditing. He has worked with Ebenezer Schools, the Office of the Auditor General, and has conducted government audit consultancies. Sam holds degrees in Business Administration from Uganda Martyrs University and Uganda Management Institute and is a member of the Certified Public Accountants of Uganda.
+                              </p>
+                              <!-- Social Icons -->
+                              <div class="social-icons text-center mt-4">
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-facebook"></i></a>
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-twitter"></i></a>
+                                  <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
+          <!-- End of Card 2 -->
+      
+          <!-- Start of Card 3 -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card mb-3 border-0 rounded-2">
+                  <div class="row g-0">
+                      <div class="col-md-4 d-flex align-items-center justify-content-center">
+                          <img src="assets/images/sam.jpeg" class="img-fluid rounded-circle" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h4>Nabasenya Shivan</h4>
+                              <span class="text-span">Monitoring and Evaluation Officer</span>
+                              <p class="card-text">
+                                Shivan, with a background in quality assurance and a Bachelor's degree in Business Administration from Nkumba University, has two years of experience as an M&E Officer. She plays a key role in coordinating, planning, and implementing SCF's M&E projects, handling tasks such as evaluation design, data collection, management, analysis, and report writing.
+                </p>
+                              <!-- Social Icons -->
+                              <div class="social-icons text-center mt-4">
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-facebook"></i></a>
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-twitter"></i></a>
+                                  <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End of Card 3 -->
+      
+          <!-- Start of Card 4 -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card mb-3 border-0 rounded-2">
+                  <div class="row g-0">
+                      <div class="col-md-4 d-flex align-items-center justify-content-center">
+                          <img src="assets/images/sam.jpeg" class="img-fluid rounded-circle" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h4>Nasamula Betty</h4>
+                              <span class="text-span">Project Manager</span>
+                              <p class="card-text">
+                                Betty joined SCF in 2002 as the Administrative Assistant and was promoted to Project Manager in 2023. Her strengths lie in implementation, follow-up, and teamwork. Betty holds a Bachelor's degree in Library and Information Science from Makerere University.
+                              </p>
+                              <!-- Social Icons -->
+                              <div class="social-icons text-center mt-4">
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-facebook"></i></a>
+                                  <a href="#" class="text-muted me-3"><i class="bi bi-twitter"></i></a>
+                                  <a href="#" class="text-muted"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End of Card 4 -->
+      </div>
+      
+      
       </div>
     </div>
 
@@ -268,7 +356,7 @@
           <div class="col-md-4 footer-item">
             <h4>Sheillah Childrens Foundation</h4>
             <p>Uganda faces challenges such as droughts, epidemics, famine, and insecurity. Despite significant progress in controlling the spread of HIV, the country still struggles with access to clean water and basic necessities. Uganda's fertile soils, ample rainfall, and vital natural resources have helped maintain economic stability.</p>
-            <ul class="social-icons">
+            <ul class="social-icons text-center mt-4">
               <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -333,8 +421,8 @@
     <!-- Bootstrap core JavaScript -->
     
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- 
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.modal.min.js"></script>
     <!-- Additional Scripts -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
