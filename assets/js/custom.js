@@ -19,7 +19,7 @@ jQuery( document ).ready(function( $ ) {
                 $("#preloader").css("visibility", "hidden").fadeOut();
             }, 300);
         });       
-
+       
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
           var box = $('.header-text').height();
@@ -140,17 +140,23 @@ jQuery( document ).ready(function( $ ) {
         });
 
         function visible(partial) {
-            var $t = partial,
-                $w = jQuery(window),
+            var $t = jQuery(partial);
+            
+            if (!$t.length) {
+                // Element is not found, handle accordingly
+                console.error("Element not found or is undefined.");
+                return false;
+            }
+        
+            var $w = jQuery(window),
                 viewTop = $w.scrollTop(),
                 viewBottom = viewTop + $w.height(),
                 _top = $t.offset().top,
                 _bottom = _top + $t.height(),
                 compareTop = partial === true ? _bottom : _top,
                 compareBottom = partial === true ? _top : _bottom;
-
+        
             return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
-
         }
 
         $(window).scroll(function(){

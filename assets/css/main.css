@@ -28,6 +28,20 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
+.btn:focus, .btn:active, button:focus, button:active {
+	outline: none !important;
+	box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+	display: block;
+  }
+  
+  .thumb{
+	margin-top: 15px;
+	margin-bottom: 15px;
+  }
+
 a.filled-button {
 	background-color: #F6454F;
 	color: #fff;
@@ -1454,4 +1468,27 @@ footer .contact-form button.filled-button:hover {
 .additional-content {
     display: none; 
 }
-/* modal */
+  /* Style for the custom list */
+  ul.custom-list {
+	list-style-type: none; /* Remove default bullets */
+	padding-left: 0; /* Remove left padding */
+}
+
+ul.custom-list li {
+	position: relative; /* For positioning the custom bullet */
+	padding-left: 20px; /* Add space for the custom bullet */
+	margin-bottom: 10px; /* Add space between list items */
+}
+
+/* Custom red bullet */
+ul.custom-list li::before {
+	content: ''; /* No text */
+	position: absolute; /* Position it relative to the list item */
+	left: 0; /* Align to the left */
+	top: 50%; /* Center vertically */
+	transform: translateY(-50%); /* Adjust for perfect centering */
+	width: 10px; /* Width of the bullet */
+	height: 10px; /* Height of the bullet */
+	background-color: #dc3545; /* Red color */
+	border-radius: 50%; /* Make it circular */
+}
