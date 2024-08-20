@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars(strip_tags(trim($_POST['message'])));
 
     // Email details
-    $to = "info@shh.org";
+    $to = "info@sheillahchildrensfoundation.org";
     $subject = "Volunteer Application from $name"; // Dynamic subject with the applicant's name
     
     // Message body
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send email
     if (mail($to, $subject, $body, $headers)) {
         // Redirect to index.html on success
-        header("Location: index.html");
+        header("Location: Voluteer.html");
         exit();
     } else {
         // Return error message
